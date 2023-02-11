@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif; 
+}
+.text-center{
+    text-align: center;
+}
+.margin-auto{
+    margin: auto;
+}
+.container{
+    border: 2px solid  black;
+    border-radius: 9px;
+    width: 320px;
+    background-color: black;
+}
+.button{
+    font-family: 'Kanit', sans-serif;
+    cursor: pointer;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    width: 66px;
+    font-size: 1rem;  
+}
+.button:hover{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.flex{
+    display: flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+.items-center{
+    align-items: center;
+}
+.row{
+    margin: 8px 0;
+}
+.row input{
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 296px;
+}
